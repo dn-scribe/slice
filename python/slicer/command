@@ -1,0 +1,1 @@
+docker run -v $(pwd):/var/slicer slicer python /var/slicer/main.py -T 3 -W 220 -H 2200 -d /var/slicer/skullfix.stl

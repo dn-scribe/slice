@@ -214,6 +214,8 @@ def command_line():
                         help='Output an .svg file instead of a .ps file')
     parser.add_argument('-d', '--dxf', default=False, action='store_true',
                         help='Output an .dxf file instead of a .ps file')
+    parser.add_argument('-p', '--path', default=False, action='store_true',
+                        help='output path (wihtout filename)')
     parser.add_argument('-v', '--verbose', default=False, action='store_true')
     parser.add_argument('-q', '--quiet', default=False, action='store_true')
     args = parser.parse_args()
@@ -246,7 +248,11 @@ def command_line():
         ext = '.ps'
         writer_class = ps.PsWriter
 
-    out_filename = os.path.splitext(os.path.basename(args.file))[0] + ext
+    path = ''
+    path = path + args.path
+    out_filename = path + os.path.splitext(os.path.basename(args.file))[0] + ext
+    
+
     layers = math.ceil(maxz - minz / args.thickness)
 
     writer = writer_class(out_filename, width, height, layers)
