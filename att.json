@@ -1,0 +1,598 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "subject": [
+    {
+      "name": "https://witness.testifysec.com/attestations/git/v0.1/commithash:d467d56e5ddfad2075ee8727f97040474e052dbf",
+      "digest": {
+        "sha1": "d467d56e5ddfad2075ee8727f97040474e052dbf"
+      }
+    }
+  ],
+  "predicateType": "https://witness.testifysec.com/attestation-collection/v0.1",
+  "predicate": {
+    "name": "build",
+    "attestations": [
+      {
+        "type": "https://witness.testifysec.com/attestations/environment/v0.1",
+        "attestation": {
+          "os": "linux",
+          "hostname": "DESKTOP-RAQCU2K",
+          "username": "root",
+          "variables": {
+            "HOME": "/root",
+            "HOSTTYPE": "x86_64",
+            "LANG": "C.UTF-8",
+            "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+            "LESSOPEN": "| /usr/bin/lesspipe %s",
+            "LOGNAME": "root",
+            "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+            "MOTD_SHOWN": "update-motd",
+            "NAME": "DESKTOP-RAQCU2K",
+            "OLDPWD": "/home/danny",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/92814/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/92814/go/bin:/mnt/c/Users/92814/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/local/go/bin:/root/go/bin",
+            "PWD": "/home/danny/slice/stl_slicer",
+            "SHELL": "/bin/bash",
+            "SHLVL": "1",
+            "TERM": "xterm-256color",
+            "USER": "root",
+            "WSLENV": "",
+            "WSL_DISTRO_NAME": "Ubuntu",
+            "WSL_INTEROP": "/run/WSL/9020_interop",
+            "XDG_DATA_DIRS": "/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+            "_": "../../witness"
+          }
+        }
+      },
+      {
+        "type": "https://witness.testifysec.com/attestations/git/v0.1",
+        "attestation": {
+          "commithash": "d467d56e5ddfad2075ee8727f97040474e052dbf",
+          "status": {
+            "Dockerfile": {
+              "staging": "unmodified",
+              "worktree": "modified"
+            },
+            "att.json": {
+              "staging": "untracked",
+              "worktree": "untracked"
+            },
+            "python/slicer/dxf.py": {
+              "staging": "unmodified",
+              "worktree": "modified"
+            },
+            "python/slicer/main.py": {
+              "staging": "unmodified",
+              "worktree": "modified"
+            },
+            "python/slicer/skullfix.dxf": {
+              "staging": "untracked",
+              "worktree": "untracked"
+            },
+            "python/slicer/skullfix.stl": {
+              "staging": "untracked",
+              "worktree": "untracked"
+            },
+            "python/slicer/skullfix.svg": {
+              "staging": "untracked",
+              "worktree": "untracked"
+            },
+            "test-att.json": {
+              "staging": "untracked",
+              "worktree": "untracked"
+            }
+          }
+        }
+      },
+      {
+        "type": "https://witness.testifysec.com/attestations/material/v0.1",
+        "attestation": {
+          ".git/COMMIT_EDITMSG": {
+            "sha256": "a47b1aadc373fe06f4d84e14dc4e3421d97736540be07eccd48ede2ba8168955"
+          },
+          ".git/FETCH_HEAD": {
+            "sha256": "1e0f3ca268ad96755be484453455d7a307389cb7d76a0a0a950feb91f09c3c48"
+          },
+          ".git/HEAD": {
+            "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10"
+          },
+          ".git/ORIG_HEAD": {
+            "sha256": "24ea5b933417f90cb33db1083ae597042cef2a6b2ba7cfe3d03b398c96e52c4f"
+          },
+          ".git/config": {
+            "sha256": "d36fc09bb6e201a7cfa703b01a140b6aca697f4e15cc1c488449b7a1abdd4daa"
+          },
+          ".git/description": {
+            "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+          },
+          ".git/hooks/applypatch-msg.sample": {
+            "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+          },
+          ".git/hooks/commit-msg.sample": {
+            "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+          },
+          ".git/hooks/fsmonitor-watchman.sample": {
+            "sha256": "9c34ab6527211ec8605b2a563f5329ed8f66dbfbd11e677c78da6c3171085604"
+          },
+          ".git/hooks/post-update.sample": {
+            "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+          },
+          ".git/hooks/pre-applypatch.sample": {
+            "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+          },
+          ".git/hooks/pre-commit.sample": {
+            "sha256": "d6d114e507a3295ff3a2e214611c2f5c0d13eaf0ed53f595ba02e4cc714fca18"
+          },
+          ".git/hooks/pre-merge-commit.sample": {
+            "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+          },
+          ".git/hooks/pre-push.sample": {
+            "sha256": "4b1119e1e13a212571976f4aee77847cdbd40978546d6273a557e238981a40d1"
+          },
+          ".git/hooks/pre-rebase.sample": {
+            "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+          },
+          ".git/hooks/pre-receive.sample": {
+            "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+          },
+          ".git/hooks/prepare-commit-msg.sample": {
+            "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+          },
+          ".git/hooks/update.sample": {
+            "sha256": "751c037320024ec2ee2757f3ffae0b10ad2c946367684e7059d4dc97eac7e431"
+          },
+          ".git/index": {
+            "sha256": "cdec43542c5f5c951b1d7a2cf4be7a8187c162777848a7cf14d8160d6fc16678"
+          },
+          ".git/info/exclude": {
+            "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+          },
+          ".git/logs/HEAD": {
+            "sha256": "7bc06ebf7106e952f97644f8ae3e5be5b222115ff7ee57dca9d70a1760adad4b"
+          },
+          ".git/logs/refs/heads/master": {
+            "sha256": "7bc06ebf7106e952f97644f8ae3e5be5b222115ff7ee57dca9d70a1760adad4b"
+          },
+          ".git/logs/refs/remotes/origin/HEAD": {
+            "sha256": "c094e7ac95e89a59381165d2edc51dbbca2b3de35c5999a09c348d3e95a393ee"
+          },
+          ".git/objects/27/fb9a42636409b10cf15a80d253ceff8e521ddf": {
+            "sha256": "9aed44104a89a4308aa03d501dddda1be0716f09f75d0ad65c060504f4292007"
+          },
+          ".git/objects/2a/bd3db632f249855ecf6eba0448854697ca88af": {
+            "sha256": "ed664f5f43138b3da39f2fbac842f5434a3de947619fd06589f9e66bbb901fe6"
+          },
+          ".git/objects/6c/7afa2f1b990c88c63f24d4836712bfdaad4560": {
+            "sha256": "d9758e5135fdfea2065c6512c6a1bfeacc9819e0af9bbfb0c6810575ad0c4323"
+          },
+          ".git/objects/94/6d9c123f0231c4ab2d33b6588c5952f711bb38": {
+            "sha256": "c275207159e63da8d17495cf5c1f009577a05ad42dfacef0f3237e78678a3972"
+          },
+          ".git/objects/9b/821db78bcfca2958fd8da0299b035bd065b2ac": {
+            "sha256": "656068a6de2ad4a076caf616a6dda8192bd2e77becf2767d4e321721e48f4a61"
+          },
+          ".git/objects/d0/2cf228aac05297923858ba613041b36847e221": {
+            "sha256": "8d797e8b4ac71eb73f348b4d0e48ac50c06d99f8896b667aa811874435fdfe12"
+          },
+          ".git/objects/d4/67d56e5ddfad2075ee8727f97040474e052dbf": {
+            "sha256": "29d2888bd33fde073d9ccc8903c2e9f5955f13aa25fe87fde856fb715869ccd1"
+          },
+          ".git/objects/pack/pack-d82c9e4c16ed62c1faa4acd0bebdb7c4f28d9cef.idx": {
+            "sha256": "cde6bb735f9463ad7b128cfe87402e1ff45a6d508e1da7e38025886be6c3190a"
+          },
+          ".git/objects/pack/pack-d82c9e4c16ed62c1faa4acd0bebdb7c4f28d9cef.pack": {
+            "sha256": "7880204a9753a184e2ae31550181363640928db707aed4e70a18836cd2da9cda"
+          },
+          ".git/packed-refs": {
+            "sha256": "d7d883c5fc5658257d315948a861414107adc6cdc6713e47d4ad690b7997b8e7"
+          },
+          ".git/refs/heads/master": {
+            "sha256": "24ea5b933417f90cb33db1083ae597042cef2a6b2ba7cfe3d03b398c96e52c4f"
+          },
+          ".git/refs/remotes/origin/HEAD": {
+            "sha256": "cdc65e67690c4c6475174e5ec662b70655246a2f3924354778835ab3be70aa76"
+          },
+          ".gitignore": {
+            "sha256": "cade2bbf89ffa04f74991e8796c46b9cc7a193c40d379a66c09c58b3361318f5"
+          },
+          "Dockerfile": {
+            "sha256": "120bfc872bb9ecc70152038279b378636dcc3e52c2ec26e66919e20f0ff0d6a3"
+          },
+          "att.json": {
+            "sha256": "444cb1ac6ded48a61092b0447ff94f2ca41b322164cc91e27ac4de6489f20e8f"
+          },
+          "backend/rebar.config": {
+            "sha256": "7c8a3ddc436d5164536427e3a8b1bf8002a30b4e8b5174786609f3160e5e6263"
+          },
+          "backend/src/slicer_backend.app.src": {
+            "sha256": "ee15c8c4ffd70ea04e5dea0bdc0c00349b53b0687f38754310a715f66a1de465"
+          },
+          "backend/src/slicer_backend_app.erl": {
+            "sha256": "fa2683b97375a12f57702a4603c5144a5c7932939848039c644a8b9959b0cb82"
+          },
+          "backend/src/slicer_backend_sup.erl": {
+            "sha256": "466102fd95b2ddfb502fcb5094f85140f8031cf7e2b504f360f1e2bd1de3c0c5"
+          },
+          "backend/src/stl.erl": {
+            "sha256": "f253e3a0c632a7428c160794b20d674dc68a6980b5027fdb1d0def72a3fef4c8"
+          },
+          "python/pavement.py": {
+            "sha256": "d25dbe61a59d4a78f66791280312430d964d7a8843baf436fc2757acea3fe979"
+          },
+          "python/slicer/__init__.py": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "python/slicer/command": {
+            "sha256": "e0554cf78b02afd0b25ce814d6c0de4cd0c091436b729e334b8886827ea0138b"
+          },
+          "python/slicer/dxf.py": {
+            "sha256": "c8d877b58efbe54a88b9445741616fe7aa7c5e8fee994b2723b63f3b3bf0fbd6"
+          },
+          "python/slicer/dxf.pyc": {
+            "sha256": "7d35f38815487b50fdba87fde16ac6ccfab55eaedb8e409892bcd1c95fbba92b"
+          },
+          "python/slicer/gui.py": {
+            "sha256": "7b501fe4fcb0b8fdf8ba55cf5239ac86e50f8650e2bafbcefa747a877060b781"
+          },
+          "python/slicer/main.py": {
+            "sha256": "394eef361bccaa9d1a8f606631f83f437a91766bbf9f5d1d415136bb757c449e"
+          },
+          "python/slicer/ps.py": {
+            "sha256": "bf395c83c2e4689c093ccf72e6734c7502d97454c126ab8e5829966c110547f5"
+          },
+          "python/slicer/ps.pyc": {
+            "sha256": "f69ea3a0d09c9b781548e2a31db1b61cd014e92fe99eb59e6681ba48eb823cd7"
+          },
+          "python/slicer/skullfix.dxf": {
+            "sha256": "409669050005c9e97c5dffc338c6cadfbb13194200c3385a78b731967e578332"
+          },
+          "python/slicer/skullfix.stl": {
+            "sha256": "9d6a50757b0706ec211c7aed02810974af5f9469f2bbb5cf5b363613ff4ba541"
+          },
+          "python/slicer/skullfix.svg": {
+            "sha256": "e1a0f188d79db748141846e7e9bb50eb4baa64d84047129916dc09473f15f115"
+          },
+          "python/slicer/stl.py": {
+            "sha256": "efe6adfcf2d3ecdd85abc0962319ccf6ae7eea244e617f3bc17e4903aabc9896"
+          },
+          "python/slicer/stl.pyc": {
+            "sha256": "2af5322d0ad9146877be9e9730003817b8af48cad3ea00e6a5a87523581ed955"
+          },
+          "python/slicer/svg.py": {
+            "sha256": "d67575262c4fa66abf3c119a9fb11ffff1e80195e85cda1a009d75118debf262"
+          },
+          "python/slicer/svg.pyc": {
+            "sha256": "1e5fb7db5389d2f0029488ab725d7da7acafc7840a15b5f8101feac7f1e2185b"
+          },
+          "python/slicer/writer.py": {
+            "sha256": "4c48a949e4d92fe0dd03e8255b46b577bcf9a95b03a67d46ced92fc6f766682c"
+          },
+          "python/slicer/writer.pyc": {
+            "sha256": "439837862ee409fecb3a8f68a05545c793c50f0820f698849f2ea25b8f6fa851"
+          },
+          "stls/40mmcube-ascii.stl": {
+            "sha256": "007b158ca7d9e87fdf00f47841264311a87aa8af42a5b6c0bff944866ff5929b"
+          },
+          "stls/40mmcube-bin.stl": {
+            "sha256": "52ae5c0a50816c20886065317948061fb4f086b8bea9c413dd7b9d333a01f062"
+          },
+          "test-att.json": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        }
+      },
+      {
+        "type": "https://witness.testifysec.com/attestations/command-run/v0.1",
+        "attestation": {
+          "cmd": [
+            "docker",
+            "build",
+            "-t",
+            "slicer:latest",
+            ".",
+            "--no-cache"
+          ],
+          "stderr": "#1 [internal] load build definition from Dockerfile\n#1 sha256:36c35d2ad755501ac41c92d91f98d1e04030b521be5b6a6a158598f9351685f3\n#1 transferring dockerfile: 31B 0.0s done\n#1 DONE 0.1s\n\n#2 [internal] load .dockerignore\n#2 sha256:d57278127112b245c206b4649ea228690608700d2c6a8d8d2ec36e650caf2d99\n#2 transferring context: 2B 0.0s done\n#2 DONE 0.0s\n\n#3 [internal] load metadata for docker.io/frolvlad/alpine-python2:latest\n#3 sha256:97b35152944e597497f74de8ddcf37d02d6d32ba4ec451a9e703807fd2321c98\n#3 DONE 0.0s\n\n#4 [1/3] FROM docker.io/frolvlad/alpine-python2\n#4 sha256:dcbd99b2746a024cdd2d537ff832bb605ecc17607194075a967693c4f893c3b3\n#4 CACHED\n\n#6 [internal] load build context\n#6 sha256:97000cb507d7b01dc783f66cdd5e99dcb7e68201538575c416e0a4383fcfc26d\n#6 transferring context: 4.00kB 0.1s done\n#6 DONE 0.1s\n\n#5 [2/3] RUN  pip install dxfwrite\n#5 sha256:7f9521e1c7c6e151a6b3db5aece3a6189ac0bbd2c1f417ffe9369ca5eb58f774\n#5 4.238 DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.\n#5 4.860 Collecting dxfwrite\n#5 5.280   Downloading dxfwrite-1.2.2-py2.py3-none-any.whl (81 kB)\n#5 5.396 Installing collected packages: dxfwrite\n#5 5.561 Successfully installed dxfwrite-1.2.2\n#5 DONE 6.1s\n\n#7 [3/3] COPY . .\n#7 sha256:dd5db81a7b32776f4aa2cad94e9f53c103474ddbd538a11ed9da789ef8828169\n#7 DONE 0.3s\n\n#8 exporting to image\n#8 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00\n#8 exporting layers\n#8 exporting layers 0.1s done\n#8 writing image sha256:eee9f021838dc1ad11ec915d7e3a69037f14e328a310071e1f88c260f329558e done\n#8 naming to docker.io/library/slicer:latest done\n#8 DONE 0.1s\n",
+          "exitcode": 0,
+          "processes": [
+            {
+              "program": "/usr/bin/docker",
+              "processid": 11105,
+              "parentpid": 0,
+              "openedfiles": {
+                "/mnt/wsl/docker-desktop/cli-tools/usr/bin/docker": {
+                  "sha256": "1912249e22bd9477c8571934b716aeca69a3c5c95942b1d72c056e30eaed640b"
+                },
+                "/root/.docker/config.json": {
+                  "sha256": "7b06c94617295adc13095c05747489de2dc31e82a3e87b7ce58089dc71bda612"
+                },
+                "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size": {
+                  "sha256": "ef801656107acf2762ce10512091bba7ae297ce0f4bc9be76b789f7ba54a4136"
+                }
+              }
+            },
+            {
+              "processid": 11133,
+              "parentpid": 0,
+              "openedfiles": {
+                "/root/.docker/config.json": {
+                  "sha256": "7b06c94617295adc13095c05747489de2dc31e82a3e87b7ce58089dc71bda612"
+                }
+              }
+            },
+            {
+              "processid": 11138,
+              "parentpid": 0
+            },
+            {
+              "processid": 11109,
+              "parentpid": 0
+            },
+            {
+              "processid": 11137,
+              "parentpid": 0
+            },
+            {
+              "program": "/usr/libexec/docker/cli-plugins/docker-buildx",
+              "processid": 11141,
+              "parentpid": 11105,
+              "programdigest": {
+                "sha256": "50af61d39bb13c309d3fbae7a036c2319f87a4f10179c94ad5f200ff47bd796c"
+              },
+              "comm": "docker",
+              "cmdline": "docker build -t slicer:latest . --no-cache",
+              "exedigest": {
+                "sha256": "1912249e22bd9477c8571934b716aeca69a3c5c95942b1d72c056e30eaed640b"
+              },
+              "openedfiles": {
+                "/etc/ld.so.cache": {
+                  "sha256": "9e846c5ca77b86201fee3aedfea6f636a908df4c56a8f07204b5036f2633ee9b"
+                },
+                "/lib/x86_64-linux-gnu/libc.so.6": {
+                  "sha256": "09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541"
+                },
+                "/lib/x86_64-linux-gnu/libpthread.so.0": {
+                  "sha256": "748a519668bf97b157a6a8d7a33eb0e852480b059c9c2e3e2eae291cf85cd828"
+                },
+                "/mnt/wsl/docker-desktop/cli-tools/usr/libexec/docker/cli-plugins/docker-buildx": {
+                  "sha256": "50af61d39bb13c309d3fbae7a036c2319f87a4f10179c94ad5f200ff47bd796c"
+                },
+                "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size": {
+                  "sha256": "ef801656107acf2762ce10512091bba7ae297ce0f4bc9be76b789f7ba54a4136"
+                }
+              },
+              "environ": "SHELL=/bin/bash WSL_DISTRO_NAME=Ubuntu NAME=DESKTOP-RAQCU2K PWD=/home/danny/slice/stl_slicer LOGNAME=root MOTD_SHOWN=update-motd HOME=/root LANG=C.UTF-8 WSL_INTEROP=/run/WSL/9020_interop LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: LESSCLOSE=/usr/bin/lesspipe %s %s TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=root SHLVL=1 WSLENV= XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/92814/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/92814/go/bin:/mnt/c/Users/92814/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/local/go/bin:/root/go/bin HOSTTYPE=x86_64 _=../../witness OLDPWD=/home/danny",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 11139,
+              "parentpid": 0,
+              "openedfiles": {
+                "/root/.docker/.buildNodeID": {
+                  "sha256": "9852e94bb08c9d0af8d56ce73703e010cc135dfedf0589f9c8e1b9704eeddc14"
+                },
+                "/root/.docker/config.json": {
+                  "sha256": "7b06c94617295adc13095c05747489de2dc31e82a3e87b7ce58089dc71bda612"
+                }
+              }
+            },
+            {
+              "program": "/usr/local/lib/docker/cli-plugins/docker-compose",
+              "processid": 11149,
+              "parentpid": 11105,
+              "programdigest": {
+                "sha256": "215bbe40c47addc208bf29d188d357c2ec6f9b4414f213cb0c568d067c6b6490"
+              },
+              "comm": "docker",
+              "cmdline": "docker build -t slicer:latest . --no-cache",
+              "exedigest": {
+                "sha256": "1912249e22bd9477c8571934b716aeca69a3c5c95942b1d72c056e30eaed640b"
+              },
+              "openedfiles": {
+                "/mnt/wsl/docker-desktop/cli-tools/usr/local/lib/docker/cli-plugins/docker-compose": {
+                  "sha256": "215bbe40c47addc208bf29d188d357c2ec6f9b4414f213cb0c568d067c6b6490"
+                },
+                "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size": {
+                  "sha256": "ef801656107acf2762ce10512091bba7ae297ce0f4bc9be76b789f7ba54a4136"
+                }
+              },
+              "environ": "SHELL=/bin/bash WSL_DISTRO_NAME=Ubuntu NAME=DESKTOP-RAQCU2K PWD=/home/danny/slice/stl_slicer LOGNAME=root MOTD_SHOWN=update-motd HOME=/root LANG=C.UTF-8 WSL_INTEROP=/run/WSL/9020_interop LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: LESSCLOSE=/usr/bin/lesspipe %s %s TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=root SHLVL=1 WSLENV= XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/92814/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/92814/go/bin:/mnt/c/Users/92814/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/local/go/bin:/root/go/bin HOSTTYPE=x86_64 _=../../witness OLDPWD=/home/danny",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 11111,
+              "parentpid": 0,
+              "openedfiles": {
+                "/root/.docker/config.json": {
+                  "sha256": "7b06c94617295adc13095c05747489de2dc31e82a3e87b7ce58089dc71bda612"
+                },
+                "/root/.docker/scan/config.json": {
+                  "sha256": "3e7056522729aaafebbb9ff21caf1a367d66ca696d65dfe07316f177c0936940"
+                }
+              }
+            },
+            {
+              "program": "/usr/bin/com.docker.cli",
+              "processid": 11115,
+              "parentpid": 11105,
+              "programdigest": {
+                "sha256": "a57ab149c01bec485d2cbe6cccd08e66f4555e385de5e12b088ae25c996540b6"
+              },
+              "comm": "docker",
+              "cmdline": "docker build -t slicer:latest . --no-cache",
+              "exedigest": {
+                "sha256": "1912249e22bd9477c8571934b716aeca69a3c5c95942b1d72c056e30eaed640b"
+              },
+              "openedfiles": {
+                "/etc/ld.so.cache": {
+                  "sha256": "9e846c5ca77b86201fee3aedfea6f636a908df4c56a8f07204b5036f2633ee9b"
+                },
+                "/etc/nsswitch.conf": {
+                  "sha256": "916bca6b7e2fb71b52ff6efe69f15bfbf2a2a6529e5d49597ce8adefb6e9a13d"
+                },
+                "/etc/passwd": {
+                  "sha256": "905dad45c61eefea4e158018ac16027a0acc0a921e25ead2ce91028aabd0dcf4"
+                },
+                "/lib/x86_64-linux-gnu/libc.so.6": {
+                  "sha256": "09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541"
+                },
+                "/lib/x86_64-linux-gnu/libdl.so.2": {
+                  "sha256": "6441e37b1be25239c01447f7cfcbb52011ebc19ab24f87b43170bbe0b867c6ce"
+                },
+                "/lib/x86_64-linux-gnu/libnss_files.so.2": {
+                  "sha256": "895740d534dcce118a99c9eb937ca182b86bab1bf94c7fe2c414ada1cc5fb628"
+                },
+                "/lib/x86_64-linux-gnu/libpthread.so.0": {
+                  "sha256": "748a519668bf97b157a6a8d7a33eb0e852480b059c9c2e3e2eae291cf85cd828"
+                },
+                "/root/.docker/config.json": {
+                  "sha256": "7b06c94617295adc13095c05747489de2dc31e82a3e87b7ce58089dc71bda612"
+                },
+                "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size": {
+                  "sha256": "ef801656107acf2762ce10512091bba7ae297ce0f4bc9be76b789f7ba54a4136"
+                }
+              },
+              "environ": "SHELL=/bin/bash WSL_DISTRO_NAME=Ubuntu NAME=DESKTOP-RAQCU2K PWD=/home/danny/slice/stl_slicer LOGNAME=root MOTD_SHOWN=update-motd HOME=/root LANG=C.UTF-8 WSL_INTEROP=/run/WSL/9020_interop LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: LESSCLOSE=/usr/bin/lesspipe %s %s TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=root SHLVL=1 WSLENV= XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/92814/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/92814/go/bin:/mnt/c/Users/92814/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/local/go/bin:/root/go/bin HOSTTYPE=x86_64 _=../../witness OLDPWD=/home/danny",
+              "specbypassisvuln": true
+            },
+            {
+              "program": "/usr/bin/com.docker.cli",
+              "processid": 11123,
+              "parentpid": 11105,
+              "programdigest": {
+                "sha256": "a57ab149c01bec485d2cbe6cccd08e66f4555e385de5e12b088ae25c996540b6"
+              },
+              "comm": "docker",
+              "cmdline": "docker build -t slicer:latest . --no-cache",
+              "exedigest": {
+                "sha256": "1912249e22bd9477c8571934b716aeca69a3c5c95942b1d72c056e30eaed640b"
+              },
+              "openedfiles": {
+                "/etc/ld.so.cache": {
+                  "sha256": "9e846c5ca77b86201fee3aedfea6f636a908df4c56a8f07204b5036f2633ee9b"
+                },
+                "/etc/nsswitch.conf": {
+                  "sha256": "916bca6b7e2fb71b52ff6efe69f15bfbf2a2a6529e5d49597ce8adefb6e9a13d"
+                },
+                "/etc/passwd": {
+                  "sha256": "905dad45c61eefea4e158018ac16027a0acc0a921e25ead2ce91028aabd0dcf4"
+                },
+                "/lib/x86_64-linux-gnu/libc.so.6": {
+                  "sha256": "09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541"
+                },
+                "/lib/x86_64-linux-gnu/libdl.so.2": {
+                  "sha256": "6441e37b1be25239c01447f7cfcbb52011ebc19ab24f87b43170bbe0b867c6ce"
+                },
+                "/lib/x86_64-linux-gnu/libnss_files.so.2": {
+                  "sha256": "895740d534dcce118a99c9eb937ca182b86bab1bf94c7fe2c414ada1cc5fb628"
+                },
+                "/lib/x86_64-linux-gnu/libpthread.so.0": {
+                  "sha256": "748a519668bf97b157a6a8d7a33eb0e852480b059c9c2e3e2eae291cf85cd828"
+                },
+                "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size": {
+                  "sha256": "ef801656107acf2762ce10512091bba7ae297ce0f4bc9be76b789f7ba54a4136"
+                }
+              },
+              "environ": "SHELL=/bin/bash WSL_DISTRO_NAME=Ubuntu NAME=DESKTOP-RAQCU2K PWD=/home/danny/slice/stl_slicer LOGNAME=root MOTD_SHOWN=update-motd HOME=/root LANG=C.UTF-8 WSL_INTEROP=/run/WSL/9020_interop LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: LESSCLOSE=/usr/bin/lesspipe %s %s TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=root SHLVL=1 WSLENV= XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/92814/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/92814/go/bin:/mnt/c/Users/92814/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/local/go/bin:/root/go/bin HOSTTYPE=x86_64 _=../../witness OLDPWD=/home/danny",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 11126,
+              "parentpid": 0,
+              "openedfiles": {
+                "/root/.docker/config.json": {
+                  "sha256": "7b06c94617295adc13095c05747489de2dc31e82a3e87b7ce58089dc71bda612"
+                }
+              }
+            },
+            {
+              "processid": 11108,
+              "parentpid": 0,
+              "openedfiles": {
+                "/root/.docker/config.json": {
+                  "sha256": "7b06c94617295adc13095c05747489de2dc31e82a3e87b7ce58089dc71bda612"
+                }
+              }
+            },
+            {
+              "program": "/usr/bin/com.docker.cli",
+              "processid": 11131,
+              "parentpid": 11105,
+              "programdigest": {
+                "sha256": "a57ab149c01bec485d2cbe6cccd08e66f4555e385de5e12b088ae25c996540b6"
+              },
+              "comm": "docker",
+              "cmdline": "docker build -t slicer:latest . --no-cache",
+              "exedigest": {
+                "sha256": "1912249e22bd9477c8571934b716aeca69a3c5c95942b1d72c056e30eaed640b"
+              },
+              "openedfiles": {
+                "/etc/ld.so.cache": {
+                  "sha256": "9e846c5ca77b86201fee3aedfea6f636a908df4c56a8f07204b5036f2633ee9b"
+                },
+                "/etc/nsswitch.conf": {
+                  "sha256": "916bca6b7e2fb71b52ff6efe69f15bfbf2a2a6529e5d49597ce8adefb6e9a13d"
+                },
+                "/etc/passwd": {
+                  "sha256": "905dad45c61eefea4e158018ac16027a0acc0a921e25ead2ce91028aabd0dcf4"
+                },
+                "/lib/x86_64-linux-gnu/libc.so.6": {
+                  "sha256": "09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541"
+                },
+                "/lib/x86_64-linux-gnu/libdl.so.2": {
+                  "sha256": "6441e37b1be25239c01447f7cfcbb52011ebc19ab24f87b43170bbe0b867c6ce"
+                },
+                "/lib/x86_64-linux-gnu/libnss_files.so.2": {
+                  "sha256": "895740d534dcce118a99c9eb937ca182b86bab1bf94c7fe2c414ada1cc5fb628"
+                },
+                "/lib/x86_64-linux-gnu/libpthread.so.0": {
+                  "sha256": "748a519668bf97b157a6a8d7a33eb0e852480b059c9c2e3e2eae291cf85cd828"
+                },
+                "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size": {
+                  "sha256": "ef801656107acf2762ce10512091bba7ae297ce0f4bc9be76b789f7ba54a4136"
+                },
+                "test-att.json": {
+                  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                }
+              },
+              "environ": "SHELL=/bin/bash WSL_DISTRO_NAME=Ubuntu NAME=DESKTOP-RAQCU2K PWD=/home/danny/slice/stl_slicer LOGNAME=root MOTD_SHOWN=update-motd HOME=/root LANG=C.UTF-8 WSL_INTEROP=/run/WSL/9020_interop LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: LESSCLOSE=/usr/bin/lesspipe %s %s TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=root SHLVL=1 WSLENV= XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/92814/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/92814/go/bin:/mnt/c/Users/92814/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/local/go/bin:/root/go/bin HOSTTYPE=x86_64 _=../../witness OLDPWD=/home/danny",
+              "specbypassisvuln": true
+            },
+            {
+              "processid": 11140,
+              "parentpid": 0,
+              "openedfiles": {
+                "/sys/devices/system/cpu/online": {
+                  "sha256": "b2f03f42d35e331b1b8f8b03648dab495a27d703b10d8df4fe5c3346f34de4cc"
+                }
+              }
+            },
+            {
+              "program": "/usr/local/lib/docker/cli-plugins/docker-scan",
+              "processid": 11154,
+              "parentpid": 11105,
+              "programdigest": {
+                "sha256": "91cbee9fc57c03fe869baf0efb6e29bcd44c27c2e483e672b4f8bb5f081e34db"
+              },
+              "comm": "docker",
+              "cmdline": "docker build -t slicer:latest . --no-cache",
+              "exedigest": {
+                "sha256": "1912249e22bd9477c8571934b716aeca69a3c5c95942b1d72c056e30eaed640b"
+              },
+              "openedfiles": {
+                "/sys/kernel/mm/transparent_hugepage/hpage_pmd_size": {
+                  "sha256": "ef801656107acf2762ce10512091bba7ae297ce0f4bc9be76b789f7ba54a4136"
+                }
+              },
+              "environ": "SHELL=/bin/bash WSL_DISTRO_NAME=Ubuntu NAME=DESKTOP-RAQCU2K PWD=/home/danny/slice/stl_slicer LOGNAME=root MOTD_SHOWN=update-motd HOME=/root LANG=C.UTF-8 WSL_INTEROP=/run/WSL/9020_interop LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: LESSCLOSE=/usr/bin/lesspipe %s %s TERM=xterm-256color LESSOPEN=| /usr/bin/lesspipe %s USER=root SHLVL=1 WSLENV= XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Python37-32/Scripts/:/mnt/c/Program Files (x86)/Python37-32/:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PuTTY/:/mnt/c/Go/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/92814/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/92814/go/bin:/mnt/c/Users/92814/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/local/go/bin:/root/go/bin HOSTTYPE=x86_64 _=../../witness OLDPWD=/home/danny",
+              "specbypassisvuln": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "https://witness.testifysec.com/attestations/product/v0.1",
+        "attestation": {}
+      }
+    ]
+  }
+}

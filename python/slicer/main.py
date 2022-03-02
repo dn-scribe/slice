@@ -214,8 +214,7 @@ def command_line():
                         help='Output an .svg file instead of a .ps file')
     parser.add_argument('-d', '--dxf', default=False, action='store_true',
                         help='Output an .dxf file instead of a .ps file')
-    parser.add_argument('-p', '--path', default=False, action='store_true',
-                        help='output path (wihtout filename)')
+    parser.add_argument('-p', '--path', default='', help='output path')
     parser.add_argument('-v', '--verbose', default=False, action='store_true')
     parser.add_argument('-q', '--quiet', default=False, action='store_true')
     args = parser.parse_args()

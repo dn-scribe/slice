@@ -29,6 +29,7 @@ class DxfWriter(writer.Writer):
         #self.f.write('closepath\nstroke\nrestore\nsave\nnewpath\n')
     
         for path in paths:
+            #self.f.add_layer('LEYER')
             pline = dxf.polyline(points=path, layer='LINES', color=RED)
             self.f.add(pline)
 
