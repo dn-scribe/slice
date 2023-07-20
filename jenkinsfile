@@ -5,9 +5,7 @@ pipeline {
         stage('Run commands') {
             steps {
               sh '''
-                echo $params
-                echo $current_build
-                echo $scm
+                env
 //                curl -sSfL https://get.scribesecurity.com/install.sh  | sh -s -- -t valint -D
 //                chmod +x /var/jenkins_home/.scribe/bin/valint
 
