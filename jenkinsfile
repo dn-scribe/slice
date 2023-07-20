@@ -5,11 +5,14 @@ pipeline {
         stage('Run commands') {
             steps {
               sh '''
-                curl -sSfL https://get.scribesecurity.com/install.sh  | sh -s -- -t valint -D
-                chmod +x /var/jenkins_home/.scribe/bin/valint
+                echo $params
+                echo $current_build
+                echo $scm
+//                curl -sSfL https://get.scribesecurity.com/install.sh  | sh -s -- -t valint -D
+//                chmod +x /var/jenkins_home/.scribe/bin/valint
 
-               /var/jenkins_home/.scribe/bin/valint --version
-              /var/jenkins_home/.scribe/bin/valint bom dir:. -o predicate-slsa --context-type jenkins --output-file jenkins-slsa1.json
+//               /var/jenkins_home/.scribe/bin/valint --version
+//              /var/jenkins_home/.scribe/bin/valint bom dir:. -o predicate-slsa --context-type jenkins --output-file jenkins-slsa1.json
               '''
             }
         }
