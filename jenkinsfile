@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Run commands') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'GH', secretText: 'GH_TOKEN')]) {
+                withCredentials([usernamePassword(credentialsId: 'GH', variable: 'GH_TOKEN')]) {
                     echo "GH_TOKEN=$GH_TOKEN"
                 }
               sh '''
