@@ -8,6 +8,7 @@ pipeline {
                     echo "GH_TOKEN=$GH_TOKEN"
                 }
               sh '''
+                echo $params
                 env
                 # Comment
                 curl -sSfL https://get.scribesecurity.com/install.sh  | sh -s -- -t valint -D
